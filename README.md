@@ -1,37 +1,37 @@
 # Bank Marketing Campaign Performance Dashboard (Power BI)
 
 ## Overview
-Interactive Power BI dashboard analyzing bank marketing campaign performance and conversion drivers across customer segments.
+Interactive Power BI dashboard analyzing bank marketing campaign performance and conversion drivers across customer segments (≈41K contacts).
 
 ## Dashboard Preview
 <img src="Screenshot.png" width="900" alt="Bank Marketing Dashboard Preview">
 
 ## Dataset
-- **Source:** *(add your dataset link here — Kaggle/UCI/etc.)*
+- **Source:** [Kaggle / UCI Bank Marketing Dataset](YOUR_LINK_HERE)
 - **Records:** ~41K contacts
 - **Target:** Term deposit subscription / conversion (yes/no)
 
 ## KPIs
-- Total Contacts  
-- Total Conversions  
-- Conversion Rate  
-- High Risk %  
-- Avg Campaign Calls  
-- Avg Call Duration  
+- Total Contacts
+- Total Conversions
+- Conversion Rate
+- High Risk %
+- Avg Campaign Calls (2.6)
+- Avg Call Duration (258 sec)
 
 ## Key Insights
-- Conversion rate differs by **contact channel** (cellular vs telephone).
-- Conversion varies across **job roles** and **age groups**.
-- Signs of **campaign fatigue**: conversion tends to decrease as the number of call attempts increases.
-- **Risk segmentation** highlights the share of high-risk contacts to support more targeted outreach.
+- Conversion rate differs by contact channel (cellular vs telephone).
+- Conversion varies across job roles and age groups.
+- Signs of campaign fatigue: conversion tends to decrease as the number of call attempts increases.
+- Risk segmentation highlights the share of high-risk contacts to support targeted outreach.
 
 ## Work Done
-- Cleaned and transformed data using **Power Query** (data types, grouping/bucketing where needed).
-- Built **DAX measures** for core KPIs and conversion rate calculations.
-- Designed an interactive layout with **slicers** for job, marital status, education, contact type, and risk level.
+- Cleaned and transformed data using Power Query (data types, grouping/bucketing where needed).
+- Built DAX measures for core KPIs and conversion rate calculations.
+- Designed an interactive layout with slicers for job, marital status, education, contact type, and risk level.
 
 ## Files
-- **PDF report:** [Bank_Marketing_Dashboard.pdf](Bank_Marketing_Dashboard.pdf)
+- PDF report: [Bank_Marketing_Dashboard.pdf](Bank_Marketing_Dashboard.pdf)
 
 ## Tools Used
 Power BI, Power Query, DAX, Data Modeling, Data Visualization
